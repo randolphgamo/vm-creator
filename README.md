@@ -19,6 +19,7 @@ chmod +x vm-create.sh
  ./vm-create.sh
  ```
 It will default to `vm1` with 2GB RAM, 2CPUs, 10GB disk
+
 3. Or you can customize individual specs with:
 ```
 ./vm-create.sh myvm 2048 2 10G /var/lib/libvirt/boot/ubuntu-22.04-live-server-amd64.iso
