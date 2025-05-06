@@ -14,8 +14,6 @@ The script assumes you already have:
 sudo apt update
 sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager
 ```
-  
-* 
 
 ## How to use it: 
 
