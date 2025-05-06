@@ -7,7 +7,7 @@ The script automates:
 * Disk Image setup (for storing the OS and persistent storage)
 * Network bridge configuration so the VM acts as if it is any regular workstation in your LAN and gets an IP from the router. No need for port forwarding from host.
 
-## Prerequisites
+### Prerequisites
 The script assumes you already have:
 * KVM + libvirt installed. Otherwise, use the command to install it:
 ```
