@@ -15,10 +15,9 @@ sudo apt update
 sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager
 ```
 * Your ISO in /var/lib/libvirt/boot/. Otherwise, get the iso using:
-  ```
-  wget -v https://releases.ubuntu.com/22.04/ubuntu-22.04-live-server-amd64.iso
-
-  ```
+```
+wget -v https://releases.ubuntu.com/22.04/ubuntu-22.04-live-server-amd64.iso
+```
 For this case, we download Ubuntu 22.04 LTS
 
 
