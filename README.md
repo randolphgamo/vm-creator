@@ -40,3 +40,6 @@ It will default to `vm1` with 2GB RAM, 2CPUs, 10GB disk
 ./vm-create.sh myvm 2048 2 10G /var/lib/libvirt/boot/ubuntu-22.04-live-server-amd64.iso
 ```
 
+## Perspective:
+1. Enable the use of cloud images as they don't require user to go through installation process
+
