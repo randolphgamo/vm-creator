@@ -7,7 +7,8 @@ VM_CPUS=${3:-2}
 VM_DISK_SIZE=${4:-10G}
 VM_ISO=${5:-/var/lib/libvirt/boot/ubuntu-22.04-live-server-amd64.iso}
 VM_DISK_PATH="/var/lib/libvirt/images/${VM_NAME}.qcow2"
-VM_NETWORK="bridge=br0"  # or use 'default' for NAT
+VM_NETWORK="network=default" # or use bridge as VM_NETWORK="bridge=br0"
+
 
 # === CHECKS ===
 if [ ! -f "$VM_ISO" ]; then
